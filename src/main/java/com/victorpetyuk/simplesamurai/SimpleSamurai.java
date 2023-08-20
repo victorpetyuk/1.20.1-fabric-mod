@@ -1,4 +1,4 @@
-package com.victorpetyuk;
+package com.victorpetyuk.simplesamurai;
 
 import net.fabricmc.api.ModInitializer;
 

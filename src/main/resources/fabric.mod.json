@@ -3,25 +3,30 @@
 	"id": "simple-samurai",
 	"version": "${version}",
 	"name": "Simple Samurai",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A 1.20.1 Fabric Samurai Mod",
 	"authors": [
-		"Me!"
+		"victorpetyuk"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+
+	"license": "MIT License",
 	"icon": "assets/simple-samurai/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.victorpetyuk.ExampleMod"
+			"com.victorpetyuk.simplesamurai.SimpleSamurai"
+		],
+		"client": [
+			"com.victorpetyuk.simplesamurai.SimpleSamuraiClient"
 		],
 		"fabric-datagen": [
-			"com.victorpetyuk.ExampleModDataGenerator"
+			"com.victorpetyuk.simplesamurai.SimpleSamuraiDataGenerator"
 		]
 	},
+
 	"mixins": [
 		"simple-samurai.mixins.json"
 	],
