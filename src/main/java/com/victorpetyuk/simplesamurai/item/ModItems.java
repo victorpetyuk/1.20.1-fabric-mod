@@ -19,7 +19,7 @@ public class ModItems {
         entries.add(KATANA);
         entries.add(RUBY);
     }
-
+    //ivory, jade, ruby, steel
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(SimpleSamurai.MOD_ID, name), item);
     }
