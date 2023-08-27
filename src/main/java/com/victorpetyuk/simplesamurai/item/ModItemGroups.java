@@ -1,6 +1,7 @@
 package com.victorpetyuk.simplesamurai.item;
 
 import com.victorpetyuk.simplesamurai.SimpleSamurai;
+import com.victorpetyuk.simplesamurai.block.ModBlocks;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -18,6 +19,7 @@ public class ModItemGroups {
             entries.add(ModItems.KATANA);
             entries.add(ModItems.RUBY);
 
+            entries.add(ModBlocks.RUBY_BLOCK);
         }).build());
 
     public static void registerItemGroups() {

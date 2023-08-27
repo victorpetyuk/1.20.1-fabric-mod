@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.victorpetyuk.simplesamurai.item.ModItems;
+import com.victorpetyuk.simplesamurai.block.ModBlocks;
 import com.victorpetyuk.simplesamurai.item.ModItemGroups;
 
 public class SimpleSamurai implements ModInitializer {
@@ -16,5 +17,6 @@ public class SimpleSamurai implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

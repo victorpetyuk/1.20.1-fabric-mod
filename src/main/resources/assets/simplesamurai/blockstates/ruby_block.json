@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "simplesamurai:block/ruby_block"
+        }
+    }
+}

@@ -2,5 +2,7 @@
     "item.simplesamurai.katana": "Katana",
     "item.simplesamurai.ruby": "Ruby",
 
+    "block.simplesamurai.ruby_block": "Block of Ruby",
+
     "itemgroup.simplesamurai": "Simple Samurai"
 }
