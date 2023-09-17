@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "simplesamurai:ruby_block",
+        "simplesamurai:ruby_ore",
+        "simplesamurai:deepslate_ruby_ore",
+        "simplesamurai:nether_ruby_ore",
+        "simplesamurai:end_stone_ruby_ore"
+    ]
+}
